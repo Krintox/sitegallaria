@@ -64,6 +64,7 @@ export default function Home() {
               <div className='ques-set'>
                 <p className='question-p'>QUESTION</p>
                 <Image
+                  className='questionss-img'
                   src= '/question-ss.png'
                   alt='Picture of the author'
                   width='420'
@@ -134,7 +135,7 @@ export default function Home() {
           <div className='image-and-time'>
             <div className='image-pp'>
                 <Image
-                  src= '/question-ss.png'
+                  src= '/sgpp.jpeg'
                   alt='Picture of the author'
                   width='80'
                   height='100'

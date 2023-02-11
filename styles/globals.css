@@ -334,3 +334,47 @@ p{
   font-weight: bold;
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+
+  .wrapper-div{
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  .op-btns{
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+
+  .op-btns div{
+    margin: 0.2rem;
+    font-size: 0.8rem;
+  }
+  .sub-ques{
+    display: block;
+  }
+
+  .sub-ques div{
+    width: 100%;
+  }
+  .question-section{
+    width: 100%;
+  }
+  .ques-progress{
+    width: 100%;
+  }
+  .main-section{
+    display: block;
+  }
+
+  .questionss-img {
+    width: 100%;
+  }
+
+  .image-and-time {
+    justify-content: flex-start;
+  }
+}
+
+@media only screen and (max-width: 900px){
+}
